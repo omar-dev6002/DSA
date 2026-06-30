@@ -23,4 +23,4 @@ class MinStack:
     def getMin(self) -> int:
         if self.stack:
             return self.stack[-1][1]
-        raise IndexError("getMin from empty stack")
+        raise IndexError("getMin from empty stack") #raising error
